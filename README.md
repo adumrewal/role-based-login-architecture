@@ -1,4 +1,4 @@
-# Login and User Role Architecture in Flutter
+# Login and User Role Based Authentication Architecture in Flutter using Firebase
 **Efficient state management and navigation for apps with specific home screens for various user roles.**
 
 Many times when working on an app we come across the following scenario:
