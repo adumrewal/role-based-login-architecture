@@ -1,4 +1,7 @@
-# Login and User Role Based Authentication Architecture in Flutter using Firebase
+# Login & Role Based User Authentication Architecture
+### Tech: Flutter and Firebase
+<img src="https://img.shields.io/badge/status-Active-green" height="20"> <img src="https://img.shields.io/github/issues/adumrewal/login-user-role-architecture" height="20"> <img src="https://img.shields.io/github/stars/adumrewal/login-user-role-architecture" height="20"> <img src="https://img.shields.io/github/license/adumrewal/login-user-role-architecture" height="20"> <img src="https://img.shields.io/badge/SDK-Flutter-yellow" height="20"> <img src="https://img.shields.io/badge/language-Dart-yellow" height="20"> 
+
 **Efficient state management and navigation for apps with specific home screens for various user roles.**
 
 Many times when working on an app we come across the following scenario:
@@ -27,6 +30,8 @@ A few resources to get you started if this is your first Flutter project:
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-I use VSCode for running flutter applications. It is very efficient and works like a charm.
+I use VSCode for running flutter applications. It is very efficient and works like a charm. Open the project folder in VSCode and click on run. Your sample app will get launched.
 
-Open the project folder in VSCode and click on run. Your sample app will get launched.
+If you like this repo and would like me to work on more such sample projects, please do let me know or give it a :star: 
+
+**If you are working on a flutter project and are stuck anywhere, feel free to reach out. Would be happy to help :)**
