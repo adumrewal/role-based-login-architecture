@@ -10,9 +10,9 @@ Here in this repository I have provided a very simple structure for the app to e
 
 ## Screenshots
 
-<img width="250" alt="login-screen" src="https://github.com/adumrewal/login-user-role-architecture/raw/master/assets/LoginScreen.png">
-<img width="250" alt="admin-portal" src="https://github.com/adumrewal/login-user-role-architecture/raw/master/assets/AdminPortal.png">
-<img width="250" alt="student-portal" src="https://github.com/adumrewal/login-user-role-architecture/raw/master/assets/StudentPortal.png">
+|Login Screen|Admin Home|Student Home|
+|:-:|:-:|:-:|
+|<img width="250" alt="login-screen" src="https://github.com/adumrewal/login-user-role-architecture/raw/main/assets/LoginScreen.png"> | <img width="250" alt="admin-portal" src="https://github.com/adumrewal/login-user-role-architecture/raw/main/assets/AdminPortal.png"> |<img width="250" alt="student-portal" src="https://github.com/adumrewal/login-user-role-architecture/raw/main/assets/StudentPortal.png"> |
 
 Suppose you are in the login screen and press the login button. In this case the user should be navigated inside the app and we should pop the login screen from the app. Adding if the user is an Admin types, he should be shown screen 2 vs screen 3 or X for other user roles.
 
