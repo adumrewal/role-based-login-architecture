@@ -1,6 +1,6 @@
 # Login & Role Based User Authentication Architecture
 ### Tech: Flutter and Firebase
-<img src="https://img.shields.io/badge/status-Active-green" height="20"> <img src="https://img.shields.io/github/issues/adumrewal/login-user-role-architecture" height="20"> <img src="https://img.shields.io/github/stars/adumrewal/login-user-role-architecture" height="20"> <img src="https://img.shields.io/github/license/adumrewal/login-user-role-architecture" height="20"> <img src="https://img.shields.io/badge/SDK-Flutter-yellow" height="20"> <img src="https://img.shields.io/badge/language-Dart-yellow" height="20"> 
+<img src="https://img.shields.io/badge/status-Active-green" height="20"> <img src="https://img.shields.io/github/issues/adumrewal/role-based-login-architecture" height="20"> <img src="https://img.shields.io/github/stars/adumrewal/role-based-login-architecture" height="20"> <img src="https://img.shields.io/github/license/adumrewal/role-based-login-architecture" height="20"> <img src="https://img.shields.io/badge/SDK-Flutter-yellow" height="20"> <img src="https://img.shields.io/badge/language-Dart-yellow" height="20"> 
 
 **Efficient state management and navigation for apps with specific home screens for various user roles.**
 
@@ -11,11 +11,14 @@ Many times when working on an app we come across the following scenario:
 
 Here in this repository I have provided a very simple structure for the app to ensure when there is a change in user state, the app gets updated automatically.
 
+## Architecture / Sequence Diagram
+<img width="800" alt="sequence-diagram" src="https://github.com/adumrewal/role-based-login-architecture/raw/main/assets/FlutterRoleBasedLoginArchitecture.png">
+
 ## Screenshots
 
 |Login Screen|Admin Home|Student Home|
 |:-:|:-:|:-:|
-|<img width="250" alt="login-screen" src="https://github.com/adumrewal/login-user-role-architecture/raw/main/assets/LoginScreen.png"> | <img width="250" alt="admin-portal" src="https://github.com/adumrewal/login-user-role-architecture/raw/main/assets/AdminPortal.png"> |<img width="250" alt="student-portal" src="https://github.com/adumrewal/login-user-role-architecture/raw/main/assets/StudentPortal.png"> |
+|<img width="250" alt="login-screen" src="https://github.com/adumrewal/role-based-login-architecture/raw/main/assets/LoginScreen.png"> | <img width="250" alt="admin-portal" src="https://github.com/adumrewal/role-based-login-architecture/raw/main/assets/AdminPortal.png"> |<img width="250" alt="student-portal" src="https://github.com/adumrewal/role-based-login-architecture/raw/main/assets/StudentPortal.png"> |
 
 Suppose you are in the login screen and press the login button. In this case the user should be navigated inside the app and we should pop the login screen from the app. Adding if the user is an Admin types, he should be shown screen 2 vs screen 3 or X for other user roles.
 
